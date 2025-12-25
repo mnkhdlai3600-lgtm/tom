@@ -1,4 +1,4 @@
-export const EpxData = [
+export const epxData = [
   {
     image: "/image/work.png",
     title: "Sr. Frontend Developer",
@@ -30,4 +30,3 @@ export const EpxData = [
     ],
   },
 ];
-export default EpxData;

@@ -1,4 +1,4 @@
-import { EpxData } from "./ExperienceData";
+import { epxData } from "../../../data/experienceData";
 
 export const Experience = () => {
   return (
@@ -12,7 +12,7 @@ export const Experience = () => {
         </div>
       </div>
       <div className="flex flex-col gap-12">
-        {EpxData.map((Exp) => (
+        {epxData.map((Exp) => (
           <div className="flex justify-between rounded-xl shadow-xs p-8 bg-white md:flex-row flex-col">
             <div>
               <img src={Exp.image} alt="" />

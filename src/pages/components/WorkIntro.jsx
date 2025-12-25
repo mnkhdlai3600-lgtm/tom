@@ -1,4 +1,4 @@
-import { WorkData } from "./WorkData";
+import { workData } from "../../../data/workData";
 
 export const WorkIntro = () => {
   return (
@@ -12,7 +12,7 @@ export const WorkIntro = () => {
         </div>
       </div>
       <div className="flex flex-col gap-12 ">
-        {WorkData.map((work, index) => (
+        {workData.map((work, index) => (
           <div
             key={index}
             className={`flex md:flex-row flex-col rounded-lg overflow-hidden shadow-lg ${
@@ -53,3 +53,4 @@ export const WorkIntro = () => {
     </div>
   );
 };
+export default WorkIntro;

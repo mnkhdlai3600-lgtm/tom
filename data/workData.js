@@ -1,6 +1,6 @@
 import { SquareArrowOutUpRight } from "lucide-react";
 
-export const WorkData = [
+export const workData = [
   {
     image: "/image/ubCab.png",
     title: "UBCab",
@@ -59,4 +59,3 @@ export const WorkData = [
     icon: <SquareArrowOutUpRight />,
   },
 ];
-export default WorkData;

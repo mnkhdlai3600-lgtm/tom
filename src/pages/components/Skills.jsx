@@ -1,5 +1,4 @@
-import { Data } from "./SkillsData";
-
+import { Data } from "../../../data/skillsData";
 export const Skills = () => {
   return (
     <div className="py-24 flex flex-col justify-center items-center gap-12  bg-white md:px-28 px-4">
