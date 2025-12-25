@@ -59,3 +59,4 @@ export const WorkData = [
     icon: <SquareArrowOutUpRight />,
   },
 ];
+export default WorkData;

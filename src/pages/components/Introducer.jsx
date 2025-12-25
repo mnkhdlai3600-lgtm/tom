@@ -48,3 +48,5 @@ export const Introducer = () => {
     </div>
   );
 };
+
+export default Introducer;

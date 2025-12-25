@@ -65,3 +65,4 @@ export const Data = [
     name: "Git",
   },
 ];
+export default Data;

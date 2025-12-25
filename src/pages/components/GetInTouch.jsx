@@ -41,3 +41,4 @@ export const GetInTouch = () => {
     </div>
   );
 };
+export default GetInTouch;
